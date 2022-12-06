@@ -1,0 +1,37 @@
+# Memory Leak reporter
+
+This project based on [Memlab package](https://facebook.github.io/memlab/docs/intro) developed by Facebook. It's a refactored project to make memory leak reporting through a defined entry-point and seperated modules for action/back phases. 
+
+# Pre-requisites
+- Install [Node.js](https://nodejs.org/en/) (**recommended** version 18.10.0 )
+- npm (**recommended** version 8.19.2)
+
+
+# Getting started
+- Clone the repository:
+```
+git clone  https://github.com/sohaieb/memory-leak-reporter.git memory-leak-reporter
+```
+- Install dependencies:
+```
+cd memory-leak-reporter
+npm install
+```
+- Change these files extentions `.js.exemple` to (`.js`), and put your codes/configurations according to your needs:
+```
+config.js.exemple        become config.js  
+src/actions.js.exemple   become src/actions.js  
+src/back.js.exemple      become src/back.js
+src/pre.js.exemple       become src/pre.js
+```
+- Run by npm or by Memlab ([see Memlab doc](https://facebook.github.io/memlab/docs/intro)):
+```
+// with npm
+npm start                   (to run simple Memlab test)
+npm run start:browser       (to run on-browser simulated Memlab test)
+
+// manually with Memlab
+memlab run --scenario app_leaks_reporter.js
+```
+
+## Enjoy your test!
