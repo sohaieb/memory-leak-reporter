@@ -34,4 +34,9 @@ npm run start:browser       (to run on-browser simulated Memlab test)
 memlab run --scenario app_leaks_reporter.js
 ```
 
+# Important for Developers!
+- To be able to perform advanced analysis or reporting, do never hesitate to check the [Memlab Docs](https://facebook.github.io/memlab/docs)
+- To develop: `Actions.js`, `Back.js` and `Pre.js` needs sometimes to have a pre-required **Puppeteer Testing Library** knowledge (see [Puppeteer](https://pptr.dev/))
+
+
 ## Enjoy your test!
