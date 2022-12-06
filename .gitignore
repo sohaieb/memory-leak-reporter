@@ -1,6 +1,8 @@
+!src/app_leaks_reporter.ts
 .idea
 .idea/*
 node_modules
 node_modules/*
-config.js
-src/*.js
+config.ts
+src/app/*.ts
+dist/*

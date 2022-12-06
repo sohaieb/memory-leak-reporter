@@ -1,3 +1,5 @@
-module.exports = async (page) => {
+import {Page} from "puppeteer";
+
+export default async function(page: Page) {
     // Last action to get performed using page:Page puppeteer object to get compared for memory leak
 };

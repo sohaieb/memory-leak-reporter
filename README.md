@@ -5,6 +5,7 @@ This project based on [Memlab package](https://facebook.github.io/memlab/docs/in
 # Pre-requisites
 - Install [Node.js](https://nodejs.org/en/) (**recommended** version 18.10.0 )
 - npm (**recommended** version 8.19.2)
+- Typescript (**recommended** version 4.9.3)
 
 
 # Getting started
@@ -17,14 +18,14 @@ git clone  https://github.com/sohaieb/memory-leak-reporter.git memory-leak-repor
 cd memory-leak-reporter
 npm install
 ```
-- Change these files extentions `.js.exemple` to (`.js`), and put your codes/configurations according to your needs using [Puppeteer](https://pptr.dev/) contracts:
+- Change these files extentions `.ts.exemple` to (`.tss`), and put your codes/configurations according to your needs using [Puppeteer](https://pptr.dev/) contracts:
 
-| Unmodified files       | Converted files    |
-|------------------------|--------------------|
-| config.js.exemple      | **config.js**      |
-| src/actions.js.exemple | **src/actions.js** |
-| src/back.js.exemple | **src/back.js**    |
-| src/pre.js.exemple | **src/pre.js**     |
+| Unmodified files           | Converted files    |
+|----------------------------|--------------------|
+| src/config.ts.exemple      | **config.ts**      |
+| src/app/actions.ts.exemple | **src/app/actions.ts** |
+| src/app/back.ts.exemple    | **src/app/back.ts**    |
+| src/app/pre.ts.exemple         | **src/app/pre.ts**     |
 
 - Run by npm or by Memlab ([see Memlab doc](https://facebook.github.io/memlab/docs/intro)):
 ```

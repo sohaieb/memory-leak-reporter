@@ -1,0 +1,5 @@
+import {Page} from "puppeteer";
+
+export default async function (page: Page) {
+    // actions to get performed using page:Page puppeteer object
+}

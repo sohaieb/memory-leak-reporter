@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     // testing url: https://google.com/xyz/xyz
     test_url: "http://localhost:4200/administration",
     // repeat test

@@ -1,7 +1,8 @@
-const {local_storages, http_headers} = require('../config');
+import {Page} from "puppeteer";
+import Config from '../config';
 
 // pre page execute
-module.exports = async (page) => {
+export default async function(page: Page) {
     // init params, data before performing test actions
     // you can retreave local storage and/or http headers data to use it before performing any actions
 };
