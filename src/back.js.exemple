@@ -1,0 +1,3 @@
+module.exports = async (page) => {
+    // Last action to get performed using page:Page puppeteer object to get compared for memory leak
+};

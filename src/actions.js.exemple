@@ -1,0 +1,3 @@
+module.exports = async (page) => {
+    // actions to get performed using page:Page puppeteer object
+};

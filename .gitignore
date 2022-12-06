@@ -1,0 +1,6 @@
+.idea
+.idea/*
+node_modules
+node_modules/*
+config.js
+src/*.js

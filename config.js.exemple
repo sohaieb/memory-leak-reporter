@@ -1,0 +1,16 @@
+module.exports = {
+    // testing url: https://google.com/xyz/xyz
+    test_url: "http://localhost:4200/administration",
+    // repeat test
+    tests_count: 2,
+    // informations needed from local storages for pre-test
+    local_storages: {
+        // 'user': '{"_id":"444411","email":"ddddd@gmail.com",...}',
+        'user': '....',
+    },
+    http_headers: {
+        //  'Accept-Encoding': 'gzip, deflate, br',
+        'header-key': 'header-value',
+        'Access-Control-Allow-Headers': '*',
+    }
+}
