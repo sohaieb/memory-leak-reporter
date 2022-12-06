@@ -17,13 +17,15 @@ git clone  https://github.com/sohaieb/memory-leak-reporter.git memory-leak-repor
 cd memory-leak-reporter
 npm install
 ```
-- Change these files extentions `.js.exemple` to (`.js`), and put your codes/configurations according to your needs:
-```
-config.js.exemple        become config.js  
-src/actions.js.exemple   become src/actions.js  
-src/back.js.exemple      become src/back.js
-src/pre.js.exemple       become src/pre.js
-```
+- Change these files extentions `.js.exemple` to (`.js`), and put your codes/configurations according to your needs using [Puppeteer](https://pptr.dev/) contracts:
+
+| Unmodified files           | Converted files |
+|----------------------------|-----------------|
+| **config.js.exemple**      | config.js       |
+| **src/actions.js.exemple** | src/actions.js  |
+| **src/back.js.exemple**    | src/back.js     |
+| **src/pre.js.exemple**     | src/pre.js      |
+
 - Run by npm or by Memlab ([see Memlab doc](https://facebook.github.io/memlab/docs/intro)):
 ```
 // with npm
@@ -31,6 +33,7 @@ npm start                   (to run simple Memlab test)
 npm run start:browser       (to run on-browser simulated Memlab test)
 
 // manually with Memlab
+npm i -g memlab
 memlab run --scenario app_leaks_reporter.js
 ```
 
