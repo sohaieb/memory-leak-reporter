@@ -19,12 +19,12 @@ npm install
 ```
 - Change these files extentions `.js.exemple` to (`.js`), and put your codes/configurations according to your needs using [Puppeteer](https://pptr.dev/) contracts:
 
-| Unmodified files           | Converted files |
-|----------------------------|-----------------|
-| **config.js.exemple**      | config.js       |
-| **src/actions.js.exemple** | src/actions.js  |
-| **src/back.js.exemple**    | src/back.js     |
-| **src/pre.js.exemple**     | src/pre.js      |
+| Unmodified files       | Converted files    |
+|------------------------|--------------------|
+| config.js.exemple      | **config.js**      |
+| src/actions.js.exemple | **src/actions.js** |
+| src/back.js.exemple | **src/back.js**    |
+| src/pre.js.exemple | **src/pre.js**     |
 
 - Run by npm or by Memlab ([see Memlab doc](https://facebook.github.io/memlab/docs/intro)):
 ```
